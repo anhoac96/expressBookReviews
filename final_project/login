@@ -1,0 +1,2 @@
+curl -c curl-cookie.txt -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" --data-raw "{\"username\":\"anh\",\"password\":\"12345\"}"
+{"message":"User successfully logged in","accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiYW5oIiwiaWF0IjoxNzc0OTI0MzkxLCJleHAiOjE3NzQ5Mjc5OTF9.3W8zccW55PyZoni9be6do_bNuUZfJ6g1PBCo36_lOJQ"}
